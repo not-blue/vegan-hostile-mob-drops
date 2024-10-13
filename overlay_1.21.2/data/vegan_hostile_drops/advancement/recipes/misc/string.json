@@ -17,10 +17,14 @@
         ]
       }
     },
-    "has_mirrored_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
+    "has_wool": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "recipe": "vegan_hostile_drops:vegan_string_mirrored"
+        "items": [
+          {
+            "items": "#minecraft:wool"
+          }
+        ]
       }
     }
   },
@@ -28,13 +32,13 @@
     [
       "has_the_recipe",
       "has_wheat",
-      "has_mirrored_recipe"
+      "has_wool"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_hostile_drops:vegan_string",
-      "vegan_hostile_drops:vegan_string_mirrored"
+      "vegan_hostile_drops:string_from_wheat",
+      "vegan_hostile_drops:string_from_wool"
     ]
   },
   "sends_telemetry_event": false

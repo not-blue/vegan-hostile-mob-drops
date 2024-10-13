@@ -4,37 +4,31 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:faux_rabbit_hide"
+        "recipe": "vegan_hostile_drops:string_from_wool"
       }
     },
-    "has_honeycomb": {
+    "has_the_other_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "vegan_hostile_drops:string_from_wheat"
+      }
+    },
+    "has_wheat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:honeycomb"
-            ]
+            "items": ["minecraft:wheat"]
           }
         ]
       }
     },
-    "has_paper": {
+    "has_wool": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:paper"
-          }
-        ]
-      }
-    },
-    "has_string": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:string"
+            "items": ["#minecraft:wool"]
           }
         ]
       }
@@ -43,14 +37,15 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_honeycomb",
-      "has_paper",
-      "has_string"
+      "has_the_other_recipe",
+      "has_wheat",
+      "has_wool"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_hostile_drops:faux_rabbit_hide"
+      "vegan_hostile_drops:string_from_wheat",
+      "vegan_hostile_drops:string_from_wool"
     ]
   },
   "sends_telemetry_event": false

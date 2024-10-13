@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:faux_rabbit_hide"
+        "recipe": "vegan_hostile_drops:vegan_rabbit_hide"
       }
     },
     "has_honeycomb": {
@@ -24,7 +24,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:paper"]
+            "items": "minecraft:paper"
           }
         ]
       }
@@ -34,7 +34,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:string"]
+            "items": "minecraft:string"
           }
         ]
       }
@@ -50,7 +50,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_hostile_drops:faux_rabbit_hide"
+      "vegan_hostile_drops:vegan_rabbit_hide"
     ]
   },
   "sends_telemetry_event": false

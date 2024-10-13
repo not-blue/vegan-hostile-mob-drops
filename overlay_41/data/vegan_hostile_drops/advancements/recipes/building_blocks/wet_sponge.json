@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:craftable_sponge"
+        "recipe": "vegan_hostile_drops:wet_sponge"
       }
     },
     "has_all_ingredients": {
@@ -12,19 +12,19 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:green_wool"]
+            "items": "minecraft:green_wool"
           },
           {
-            "items": ["minecraft:yellow_wool"]
+            "items": "minecraft:yellow_wool"
           },
           {
-            "items": ["minecraft:white_wool"]
+            "items": "minecraft:white_wool"
           },
           {
-            "items": ["minecraft:water_bucket"]
+            "items": "minecraft:water_bucket"
           },
           {
-            "items": ["minecraft:tropical_fish"]
+            "items": "minecraft:tropical_fish"
           }
         ]
       }
@@ -38,7 +38,7 @@
   ],
   "rewards": {
     "recipes": [
-      "vegan_hostile_drops:craftable_sponge"
+      "vegan_hostile_drops:wet_sponge"
     ]
   },
   "sends_telemetry_event": false
