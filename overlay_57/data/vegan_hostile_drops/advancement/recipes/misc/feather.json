@@ -4,39 +4,31 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:vegan_bone"
+        "recipe": "vegan_hostile_drops:feather"
       }
     },
-    "has_bone_meal": {
+    "has_paper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:bone_meal"
+              "minecraft:paper"
             ]
           }
         ]
-      }
-    },
-    "has_mirrored_recipe": {
-      "trigger": "minecraft:recipe_unlocked",
-      "conditions": {
-        "recipe": "vegan_hostile_drops:vegan_bone_2"
       }
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_bone_meal",
-      "has_mirrored_recipe"
+      "has_paper"
     ]
   ],
   "rewards": {
     "recipes": [
-      "vegan_hostile_drops:vegan_bone",
-      "vegan_hostile_drops:vegan_bone_2"
+      "vegan_hostile_drops:feather"
     ]
   },
   "sends_telemetry_event": false
