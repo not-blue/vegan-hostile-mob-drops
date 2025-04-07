@@ -1,22 +1,14 @@
 {
   "pack": {
-    "pack_format": 15,
+    "pack_format": 48,
     "supported_formats": [
-      15,
+      48,
       999
     ],
     "description": "Craft hostile mob drops with vegan ingredients."
   },
   "overlays": {
     "entries": [
-      {
-        "formats": 41,
-        "directory": "overlay_41"
-      },
-      {
-        "formats": 48,
-        "directory": "overlay_48"
-      },
       {
         "formats": 57,
         "directory": "overlay_57"
