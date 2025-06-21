@@ -36,7 +36,7 @@
       "conditions": {
         "items": [
           {
-            "tag": "vegan_hostile_drops:small_flowers"
+            "items": "vegan_hostile_drops:small_flowers"
           }
         ]
       }
@@ -47,6 +47,7 @@
       "has_the_recipe",
       "has_sugar",
       "has_glass_bottle",
+      "has_water_bottle",
       "has_flower"
     ]
   ],
