@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:vegan_honey_bottle"
+        "recipe": "vegan_hostlie_drops:vegan_honey_bottle"
       }
     },
     "has_sugar": {
@@ -31,12 +31,24 @@
         ]
       }
     },
+    "has_water_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:potion"
+            ]
+          }
+        ]
+      }
+    },
     "has_flower": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "vegan_hostile_drops:small_flowers"
+            "items": "#vegan_hostile_drops:small_flowers"
           }
         ]
       }
