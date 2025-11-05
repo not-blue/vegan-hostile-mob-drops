@@ -7,9 +7,15 @@
     "ABA"
   ],
   "key": {
-    "A": "minecraft:diamond_block",
-    "B": "minecraft:echo_shard",
-    "C": "minecraft:sea_lantern"
+    "A": {
+      "item": "minecraft:diamond_block"
+    },
+    "B": {
+      "item": "minecraft:echo_shard"
+    },
+    "C": {
+      "item": "minecraft:sea_lantern"
+    }
   },
   "result": {
     "id": "minecraft:nether_star"

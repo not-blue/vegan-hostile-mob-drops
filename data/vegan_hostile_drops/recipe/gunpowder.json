@@ -6,9 +6,15 @@
     "CS"
   ],
   "key": {
-    "M": "minecraft:magma_block",
-    "C": "minecraft:charcoal",
-    "S": "#minecraft:sand"
+    "M": {
+      "item": "minecraft:magma_block"
+    },
+    "C": {
+      "item": "minecraft:charcoal"
+    },
+    "S": {
+      "tag": "minecraft:sand"
+    }
   },
   "result": {
     "id": "minecraft:gunpowder",

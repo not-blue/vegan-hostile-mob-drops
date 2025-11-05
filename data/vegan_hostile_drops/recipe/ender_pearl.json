@@ -7,8 +7,12 @@
     "AAA"
   ],
   "key": {
-    "A": "minecraft:bone_meal",
-    "B": "minecraft:slime_ball"
+    "A": {
+      "item": "minecraft:bone_meal"
+    },
+    "B": {
+      "item": "minecraft:slime_ball"
+    }
   },
   "result": {
     "id": "minecraft:ender_pearl"

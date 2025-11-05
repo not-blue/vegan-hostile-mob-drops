@@ -1,16 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "misc",
   "pattern": [
     "AB",
     "BC"
   ],
   "key": {
-    "A": "minecraft:potion",
-    "B": "minecraft:popped_chorus_fruit",
-    "C": "minecraft:gunpowder"
+    "A": {
+      "item": "minecraft:potion"
+    },
+    "B": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "C": {
+      "item": "minecraft:gunpowder"
+    }
   },
   "result": {
     "id": "minecraft:dragon_breath"
-  }
+  },
+  "category": "misc"
 }

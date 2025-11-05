@@ -3,23 +3,51 @@
   "category": "misc",
   "ingredients": [
     [
-      "minecraft:leather",
-      "minecraft:chicken",
-      "minecraft:cooked_chicken",
-      "minecraft:rabbit",
-      "minecraft:cooked_rabbit",
-      "minecraft:beef",
-      "minecraft:cooked_beef",
-      "minecraft:mutton",
-      "minecraft:cooked_mutton",
-      "minecraft:porkchop",
-      "minecraft:cooked_porkchop"
+      {
+        "item": "minecraft:leather"
+      },
+      {
+        "item": "minecraft:chicken"
+      },
+      {
+        "item": "minecraft:cooked_chicken"
+      },
+      {
+        "item": "minecraft:rabbit"
+      },
+      {
+        "item": "minecraft:cooked_rabbit"
+      },
+      {
+        "item": "minecraft:beef"
+      },
+      {
+        "item": "minecraft:cooked_beef"
+      },
+      {
+        "item": "minecraft:mutton"
+      },
+      {
+        "item": "minecraft:cooked_mutton"
+      },
+      {
+        "item": "minecraft:porkchop"
+      },
+      {
+        "item": "minecraft:cooked_porkchop"
+      }
     ],
     [
-      "minecraft:brown_mushroom",
-      "minecraft:red_mushroom"
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+      {
+        "item": "minecraft:red_mushroom"
+      }
     ],
-    "minecraft:slime_ball"
+    {
+      "item": "minecraft:slime_ball"
+    }
   ],
   "result": {
     "id": "minecraft:rotten_flesh"

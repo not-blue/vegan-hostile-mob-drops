@@ -7,9 +7,15 @@
     "ACA"
   ],
   "key": {
-    "A": "minecraft:gold_block",
-    "B": "minecraft:emerald_block",
-    "C": "minecraft:ghast_tear"
+    "A": {
+      "item": "minecraft:gold_block"
+    },
+    "B": {
+      "item": "minecraft:emerald_block"
+    },
+    "C": {
+      "item": "minecraft:ghast_tear"
+    }
   },
   "result": {
     "id": "minecraft:totem_of_undying"

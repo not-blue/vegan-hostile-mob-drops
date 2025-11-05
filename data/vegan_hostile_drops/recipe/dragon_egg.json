@@ -6,10 +6,18 @@
       "#*#"
     ],
     "key": {
-      "#": "minecraft:crying_obsidian",
-      "O": "minecraft:egg",
-      "*": "minecraft:end_crystal",
-      "B": "minecraft:dragon_breath"
+      "#": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "O": {
+        "item": "minecraft:egg"
+      },
+      "*": {
+        "item": "minecraft:end_crystal"
+      },
+      "B": {
+        "item": "minecraft:dragon_breath"
+      }
     },
     "result": {
       "id": "minecraft:dragon_egg"

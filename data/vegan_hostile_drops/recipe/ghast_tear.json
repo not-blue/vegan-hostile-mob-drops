@@ -7,9 +7,15 @@
     "QBQ"
   ],
   "key": {
-    "Q": "minecraft:smooth_quartz",
-    "B": "minecraft:iron_block",
-    "I": "minecraft:gunpowder"
+    "Q": {
+      "item": "minecraft:smooth_quartz"
+    },
+    "B": {
+      "item": "minecraft:iron_block"
+    },
+    "I": {
+      "item": "minecraft:gunpowder"
+    }
   },
   "result": {
     "id": "minecraft:ghast_tear",

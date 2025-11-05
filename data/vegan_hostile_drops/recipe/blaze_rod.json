@@ -7,8 +7,12 @@
     "GSG"
   ],
   "key": {
-    "G": "minecraft:glowstone",
-    "S": "minecraft:stick"
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
   },
   "result": {
     "id": "minecraft:blaze_rod",

@@ -7,9 +7,15 @@
     "DAD"
   ],
   "key": {
-    "A": "minecraft:string",
-    "D": "minecraft:bone_meal",
-    "B": "minecraft:slime_ball"
+    "A": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "minecraft:slime_ball"
+    },
+    "D": {
+      "item": "minecraft:bone_meal"
+    }
   },
   "result": {
     "id": "minecraft:spider_eye"
