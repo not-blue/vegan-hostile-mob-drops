@@ -12,9 +12,7 @@
         "conditions": {
           "items": [
             {
-              "items": [
-                "minecraft:end_crystal"
-              ]
+              "items": "minecraft:end_crystal"
             }
           ]
         }

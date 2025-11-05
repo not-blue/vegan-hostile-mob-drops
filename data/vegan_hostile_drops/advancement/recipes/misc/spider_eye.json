@@ -12,10 +12,10 @@
       "conditions": {
         "items": [
           {
-            "items": ["minecraft:slime_block"]
-          },
-          {
-            "items": ["minecraft:slime_ball"]
+            "items": [
+              "minecraft:slime_block", 
+              "minecraft:slime_ball"
+            ]
           }
         ]
       }
