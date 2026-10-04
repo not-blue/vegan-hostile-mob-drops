@@ -3,7 +3,7 @@
     "criteria": {
       "has_the_recipe": {
         "conditions": {
-          "recipe": "vegan_hostile_drops:resin_clump"
+          "recipes": "vegan_hostile_drops:resin_clump"
         },
         "trigger": "minecraft:recipe_unlocked"
       },

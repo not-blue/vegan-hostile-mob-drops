@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:heavy_core"
+        "recipes": "vegan_hostile_drops:heavy_core"
       }
     },
     "has_netherite_block": {

@@ -4,7 +4,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "vegan_hostile_drops:spider_eye"
+        "recipes": "vegan_hostile_drops:spider_eye"
       }
     },
     "has_slime": {
