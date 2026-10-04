@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:iron_block"
-    },
-    "x": {
-      "item": "minecraft:netherite_block"
-    }
+    "#": "minecraft:iron_block",
+    "x": "minecraft:netherite_block"
   },
   "pattern": [
     "###",
